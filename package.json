@@ -1,0 +1,30 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "abstraction": "ts-node src/OOP_principles/abstraction.ts",
+    "encapsulation": "ts-node src/OOP_principles/encapsulation.ts",
+    "inharitance": "ts-node src/OOP_principles/inharitance.ts",
+    "polymorphism": "ts-node src/OOP_principles/polymorphism.ts",
+    "adapter": "ts-node src/design_patterns/adapter.ts",
+    "builder": "ts-node src/design_patterns/builder.ts",
+    "command": "ts-node src/design_patterns/command.ts",
+    "decorator": "ts-node src/design_patterns/decorator.ts",
+    "factory": "ts-node src/design_patterns/factory.ts",
+    "observer": "ts-node src/design_patterns/observer.ts",
+    "proxy": "ts-node src/design_patterns/proxy.ts",
+    "singleton": "ts-node src/design_patterns/singleton.ts",
+    "state": "ts-node src/design_patterns/state.ts",
+    "strategy": "ts-node src/design_patterns/strategy.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
